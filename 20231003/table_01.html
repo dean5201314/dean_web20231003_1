@@ -35,102 +35,141 @@
             width: 600px;
             height: 50px;
         }
-        
+        .text-red{
+            color: red;
+        }
+        .bg-blue{
+            background-color: lightskyblue;
+        }
+        .bg-cyan{
+            background-color:lightcyan;
+        }
+        .bg-pink{
+            background-color:lightpink;
+        }
     </style>
 </head>
 
 <body>
+    <div class="nav">
+        <a href="#item1">康乃爾筆記</a>&nbsp;&nbsp;&nbsp;
+        <a href="#item2">東大筆記</a>&nbsp;&nbsp;&nbsp;
+        <a href="#item3">麥肯錫筆記</a>&nbsp;&nbsp;&nbsp;
+        <a href="#item4">獲利時代</a>&nbsp;&nbsp;&nbsp;
+    </div> 
+    <div id="item1"></div>
     <div class="container">
         <h3>康乃爾筆記</h3>
-
         <table>
             <tr>
-                <td>整理</td>
-                <td>筆記</td>
+                <td class="sum bg-blue">                    
+                    <h4 class="text-red">整理</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis facere sequi, enim temporibus
+                    </p>
+                </td>
+                <td class="sum bg-blue">
+                    <h4 class="text-red">筆記</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis facere sequi, enim temporibus
+                    </p>
+                </td>
             </tr>
             <tr>
-                <td colspan="2" class="sum">總結</td>
+                <td colspan="2" class="sum bg-cyan">
+                    <h4 class="text-red">總結</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis facere sequi, enim temporibus
+                    </p>
+                </td>
                 <!-- <td>22</td> -->
             </tr>
             </tr>
         </table>
+        <a href="#" class="top">top</a>
     </div>
     <br>
 
+    <div id="item2"></div>
     <div class="container">
         <h3>東大筆記</h3>
-
         <table>
             <tr>
-                <td class="note">筆記</td>
-                <td>整理</td>
-                <td>總結</td>
+                <td class="note bg-pink">筆記</td>
+                <td class="sum bg-blue">整理</td>
+                <td class="sum bg-cyan">總結</td>
 
             </tr>
         </table>
+        <a href="#" class="top">top</a>
     </div>
     <br>
 
+    <div id="item3"></div>
     <div class="container">
         <h3>麥肯錫筆記</h3>
-
         <table>
             <tr>
-                <td colspan="3" class="key">重點問題</td>
+                <td colspan="3" class="key  bg-blue">重點問題</td>
                 <!-- <td></td>
                 <td></td> -->
             </tr>
             <tr>
-                <td>現狀</td>
-                <td>解釋</td>
-                <td>行動</td>
+                <td class="bg-cyan">現狀</td>
+                <td class="bg-cyan">解釋</td>
+                <td class="bg-cyan">行動</td>
 
             </tr>
         </table>
-
+        <a href="#" class="top">top</a>
     </div>
     <br>
 
+    <div id="item4"></div>
     <div class="container">
         <h3>獲利時代</h3>
         <table>
             <tr>
-                <td colspan="2" rowspan="2">關鍵合作夥伴</td>
+                <td colspan="2" rowspan="2" class="bg-blue">關鍵合作夥伴</td>
                 <!-- <td>12</td> -->
-                <td colspan="2">關鍵活動</td>
+                <td colspan="2" class="bg-cyan">關鍵活動</td>
                 <!-- <td>14</td> -->
-                <td colspan="2" rowspan="2">價值主張</td>
+                <td colspan="2" rowspan="2" class="bg-blue">價值主張</td>
                 <!-- <td>16</td> -->
-                <td colspan="2">顧客關係</td>
+                <td colspan="2" class="bg-cyan">顧客關係</td>
                 <!-- <td>18</td> -->
-                <td colspan="2" rowspan="2">目標客層</td>
+                <td colspan="2" rowspan="2" class="bg-blue">目標客層</td>
                 <!-- <td>10</td> -->
             </tr>
             <tr>
                 <!-- <td colspan="2">21</td> -->
                 <!-- <td>22</td> -->
-                <td colspan="2">關鍵資源</td>
+                <td colspan="2" class="bg-cyan">關鍵資源</td>
                 <!-- <td>24</td> -->
                 <!-- <td colspan="2">25</td> -->
                 <!-- <td>26</td> -->
-                <td colspan="2">通路</td>
+                <td colspan="2" class="bg-cyan">通路</td>
                 <!-- <td>28</td> -->
                 <!-- <td colspan="2">29</td> -->
                 <!-- <td>20</td> -->
             </tr>
             <tr>
-                <td colspan="5">成本結構</td>
+                <td colspan="5" class="bg-pink">成本結構</td>
                 <!-- <td>32</td>
                 <td>33</td>
                 <td>34</td>
                 <td>35</td> -->
-                <td colspan="5">收益流</td>
+                <td colspan="5" class="bg-pink">收益流</td>
                 <!-- <td>37</td>
                 <td>38</td>
                 <td>39</td>
                 <td>30</td> -->
             </tr>
         </table>
+        <a href="#" class="top">top</a>
     </div>
 
 </body>
